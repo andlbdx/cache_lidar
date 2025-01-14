@@ -1,7 +1,7 @@
 <launch>
 
 
-  <node name="map_pub_node" pkg="map_pkg" type="map_pub_node" output="screen" >
+  <node name="cache_lidar" pkg="cache_lidar" type="cache_lidar" output="screen" >
   	<rosparam command="load" file="$(find cache_lidar)/config/params.yaml" />
   </node>
 
