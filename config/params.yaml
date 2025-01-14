@@ -1,0 +1,3 @@
+frame_num: 5
+sub_topic: "/livox/lidar"
+pub_topic: "/cache/lidar"
